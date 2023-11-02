@@ -82,7 +82,7 @@ li:before {
   left: 8px;
 }
 li:nth-child(1):before {
-  content: "🪪";
+  content: "🧑🏼‍💻";
 }
 li:nth-child(2):before {
   content: "🛒";
