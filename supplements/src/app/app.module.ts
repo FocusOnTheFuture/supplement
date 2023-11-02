@@ -7,12 +7,15 @@ import { AppComponent } from './app.component';
 import { MenubarComponent } from './pages/menubar/menubar.component'
 import { HomeComponent } from './pages/home/home.component';
 
+import { DefaultButtonComponent } from './pages/default-button/default-button.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     MenubarComponent,
-    HomeComponent
+    HomeComponent,
+    DefaultButtonComponent
   ],
   imports: [
     BrowserModule,
