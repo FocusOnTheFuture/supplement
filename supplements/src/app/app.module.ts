@@ -10,6 +10,8 @@ import { HomeComponent } from './pages/home/home.component';
 
 import { DefaultButtonComponent } from './pages/default-button/default-button.component';
 
+import { BoxCategoryComponent } from './pages/home/box-category/box-category.component';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { DefaultButtonComponent } from './pages/default-button/default-button.co
     MenuHamburguerComponent,
     MenubarComponent,
     HomeComponent,
-    DefaultButtonComponent
+    DefaultButtonComponent,
+    BoxCategoryComponent
   ],
   imports: [
     BrowserModule,
