@@ -1,0 +1,10 @@
+p {
+    background-color: red;
+
+    font-size: .750rem;
+    color: white;
+
+    display: inline-block;
+    padding: .75rem 3rem;
+    border-radius: 4px;
+}
