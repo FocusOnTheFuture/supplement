@@ -10,6 +10,9 @@ import { MenubarComponent } from './menubar.component';
   ],
   imports: [
     CommonModule
+  ], 
+  exports: [ 
+    MenubarComponent
   ]
 })
 export class MenubarModule { }
