@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { MenusearchComponent} from './pages/menubar/menusearch/menusearch.component'
 import { MenuHorizontalComponent } from './pages/menubar/menu-horizontal/menu-horizontal.component';
 import {MenuHamburguerComponent} from './pages/menubar/menu-hamburguer/menu-hamburguer.component'
 import { MenubarComponent } from './pages/menubar/menubar.component'
@@ -22,6 +23,7 @@ import { BoxTotalPriceComponent } from './pages/box-total-price/box-total-price.
 @NgModule({
   declarations: [
     AppComponent,
+    MenusearchComponent,
     MenuHorizontalComponent,
     MenuHamburguerComponent,
     MenubarComponent,
