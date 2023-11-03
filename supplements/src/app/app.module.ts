@@ -13,9 +13,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { DefaultButtonComponent } from './pages/default-button/default-button.component';
 
 import { BoxCategoryComponent } from './pages/home/box-category/box-category.component';
-
 import { BoxItemPriceComponent } from './pages/box-item-price/box-item-price.component';
-
+import { BoxTotalPriceComponent } from './pages/box-total-price/box-total-price.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +24,8 @@ import { BoxItemPriceComponent } from './pages/box-item-price/box-item-price.com
     HomeComponent,
     DefaultButtonComponent,
     BoxCategoryComponent,
-    BoxItemPriceComponent
+    BoxItemPriceComponent,
+    BoxTotalPriceComponent
   ],
   imports: [
     BrowserModule,

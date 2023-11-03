@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+}
+
+.container {
+    border: 1px solid black;
+
+    display: inline-block;
+    text-align: left;
+
+    width: 230px;
+    padding: 0 8% 0 12px;
+}
+
+ul li {
+    list-style-type: none;
+
+    padding: 8px 0px;
+}
+
+.subtotal {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.ship {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+ul .total {
+    padding-bottom: 30px;
+}
