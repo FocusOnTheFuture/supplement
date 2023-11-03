@@ -18,6 +18,7 @@ import { BoxTotalPriceComponent } from './pages/box-total-price/box-total-price.
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +29,7 @@ import { BoxTotalPriceComponent } from './pages/box-total-price/box-total-price.
     DefaultButtonComponent,
     BoxCategoryComponent,
     BoxItemPriceComponent,
-    BoxTotalPriceComponent
+    BoxTotalPriceComponent,
   ],
   imports: [
     BrowserModule,
