@@ -1,0 +1,6 @@
+.pipeline {
+    border: 8px solid red;
+    border-radius: 4px;
+    
+    margin-right: 8px;
+}
