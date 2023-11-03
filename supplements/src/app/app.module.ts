@@ -18,7 +18,7 @@ import { BoxTotalPriceComponent } from './pages/box-total-price/box-total-price.
 
 import { MarkCategoryComponent } from './pages/home/mark-category/mark-category.component';
 
-
+import { FullServicesComponent } from './pages/full-services/full-services.component';
 
 
 @NgModule({
@@ -32,7 +32,8 @@ import { MarkCategoryComponent } from './pages/home/mark-category/mark-category.
     BoxCategoryComponent,
     BoxItemPriceComponent,
     BoxTotalPriceComponent,
-    MarkCategoryComponent
+    MarkCategoryComponent,
+    FullServicesComponent
   ],
   imports: [
     BrowserModule,
