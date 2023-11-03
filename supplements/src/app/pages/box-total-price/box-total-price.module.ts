@@ -4,9 +4,10 @@ import { BoxTotalPriceComponent } from './box-total-price.component';
 
 
 
+
 @NgModule({
   declarations: [
-    BoxTotalPriceComponent
+    BoxTotalPriceComponent,
   ],
   imports: [
     CommonModule
