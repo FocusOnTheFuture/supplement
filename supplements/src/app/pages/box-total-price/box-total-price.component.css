@@ -1,5 +1,6 @@
 * {
     padding: 0;
+    margin: 0;
 }
 
 .container {
@@ -9,23 +10,21 @@
     text-align: left;
 
     width: 230px;
-    padding: 0 8% 0 12px;
+    padding: 16px 30px 8px 12px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 ul li {
     list-style-type: none;
 
-    padding: 8px 0px;
+    padding: 16px 0px;
 }
 
-.subtotal {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-}
-
-.ship {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-}
-
-ul .total {
-    padding-bottom: 30px;
+.total { 
+    border-bottom: none;
 }
