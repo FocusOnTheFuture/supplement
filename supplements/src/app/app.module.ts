@@ -19,6 +19,7 @@ import { BoxTotalPriceComponent } from './pages/box-total-price/box-total-price.
 
 import { MarkCategoryComponent } from './pages/home/mark-category/mark-category.component';
 
+import {CarrocelComponent} from './pages/carrocel/carrocel.component';
 
 
 

@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.carousel {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    white-space: nowrap;
+    transition: transform 0.6s ease;
+}
+
+.carousel-inner img {
+    width: 100%;
+    display: inline-block;
+}
+
+.carousel-indicators {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.carousel-indicators button {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    background: #777;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.carousel-indicators button.active {
+    background: #555;
+}
