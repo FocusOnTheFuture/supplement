@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { MenusearchComponent} from './pages/menubar/menusearch/menusearch.component'
 import { MenuHorizontalComponent } from './pages/menubar/menu-horizontal/menu-horizontal.component';
 import {MenuHamburguerComponent} from './pages/menubar/menu-hamburguer/menu-hamburguer.component'
 import { MenubarComponent } from './pages/menubar/menubar.component'
@@ -18,12 +19,17 @@ import { BoxTotalPriceComponent } from './pages/box-total-price/box-total-price.
 
 import { MarkCategoryComponent } from './pages/home/mark-category/mark-category.component';
 
+
 import { FullServicesComponent } from './pages/full-services/full-services.component';
+
+import {CarrocelComponent} from './pages/carrocel/carrocel.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    MenusearchComponent,
     MenuHorizontalComponent,
     MenuHamburguerComponent,
     MenubarComponent,
@@ -33,7 +39,8 @@ import { FullServicesComponent } from './pages/full-services/full-services.compo
     BoxItemPriceComponent,
     BoxTotalPriceComponent,
     MarkCategoryComponent,
-    FullServicesComponent
+    FullServicesComponent,
+    CarrocelComponent
   ],
   imports: [
     BrowserModule,
