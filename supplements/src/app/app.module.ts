@@ -17,6 +17,8 @@ import { BoxCategoryComponent } from './pages/home/box-category/box-category.com
 import { BoxItemPriceComponent } from './pages/box-item-price/box-item-price.component';
 import { BoxTotalPriceComponent } from './pages/box-total-price/box-total-price.component';
 
+import { MarkCategoryComponent } from './pages/home/mark-category/mark-category.component';
+
 
 
 
@@ -32,6 +34,7 @@ import { BoxTotalPriceComponent } from './pages/box-total-price/box-total-price.
     BoxCategoryComponent,
     BoxItemPriceComponent,
     BoxTotalPriceComponent,
+    MarkCategoryComponent
   ],
   imports: [
     BrowserModule,
