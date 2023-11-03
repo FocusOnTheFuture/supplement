@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 4rem 2rem;
+}
+
+ul {
+    list-style-type: none;
+
+    text-align: center;
+}
+
+ul li .img {
+    width: 20%;
+}
+
+ul li h3 {
+    padding: 8px;
+}
