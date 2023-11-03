@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-
+import { MenuHorizontalComponent } from './pages/menubar/menu-horizontal/menu-horizontal.component';
 import {MenuHamburguerComponent} from './pages/menubar/menu-hamburguer/menu-hamburguer.component'
 import { MenubarComponent } from './pages/menubar/menubar.component'
 
@@ -17,9 +17,12 @@ import { BoxCategoryComponent } from './pages/home/box-category/box-category.com
 import { BoxItemPriceComponent } from './pages/box-item-price/box-item-price.component';
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
+    MenuHorizontalComponent,
     MenuHamburguerComponent,
     MenubarComponent,
     HomeComponent,
