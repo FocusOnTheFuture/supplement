@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FooterModule } from './pages/footer/footer.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -26,6 +27,7 @@ import {CarrocelComponent} from './pages/carrocel/carrocel.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,7 +46,8 @@ import {CarrocelComponent} from './pages/carrocel/carrocel.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,  
+    FooterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

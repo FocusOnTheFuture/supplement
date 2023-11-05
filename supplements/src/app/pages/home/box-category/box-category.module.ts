@@ -10,9 +10,6 @@ import { BoxCategoryComponent } from './box-category.component';
   ],
   imports: [
     CommonModule
-  ],
-  exports: [
-    BoxCategoryComponent
   ]
 })
 export class BoxCategoryModule { }
