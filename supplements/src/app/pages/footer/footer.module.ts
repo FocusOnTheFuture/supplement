@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BoxCategoryComponent } from './box-category.component';
+import { FooterComponent } from './footer.component';
 
 
 
 @NgModule({
   declarations: [
-    BoxCategoryComponent
+    FooterComponent
   ],
   imports: [
     CommonModule
   ]
 })
-export class BoxCategoryModule { }
+export class FooterModule { }
