@@ -1,3 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .support {
     list-style-type: none;
+
+    width: min-content;
+}
+
+.adress {
+    line-height: 1.25rem;
+}
+
+ul li {
+    padding-top: 10px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
 }
