@@ -9,26 +9,31 @@
 
 .carousel-inner {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .carousel-item {
-    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
 .carousel-item img {
-    width: 100%;
-    height: auto;
+    width: 300px;
+    height: 200px;
 }
 
 .carousel-control {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
     border: none;
     cursor: pointer;
     padding: 10px;
+    font-size: 20px;
+    z-index: 1;
 }
 
 .prev {

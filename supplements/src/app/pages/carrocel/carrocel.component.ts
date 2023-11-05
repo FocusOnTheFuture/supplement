@@ -11,9 +11,8 @@ export class CarrocelComponent {
   showSlides() {
     const slides = document.getElementsByClassName("carousel-item") as HTMLCollectionOf<HTMLElement>;
     for (let i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+      slides[i].style.display = "block"; // Alterado para 'block' para exibir todos os slides
     }
-    slides[this.slideIndex].style.display = "block";
   }
 
   prevSlide() {
