@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HomeModule } from './pages/home/home.module'
 import { FooterModule } from './pages/footer/footer.module';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,15 +12,13 @@ import { MenuHorizontalComponent } from './pages/menubar/menu-horizontal/menu-ho
 import {MenuHamburguerComponent} from './pages/menubar/menu-hamburguer/menu-hamburguer.component'
 import { MenubarComponent } from './pages/menubar/menubar.component'
 
-import { HomeComponent } from './pages/home/home.component';
 
 import { DefaultButtonComponent } from './pages/default-button/default-button.component';
 
-import { BoxCategoryComponent } from './pages/home/box-category/box-category.component';
+
 import { BoxItemPriceComponent } from './pages/box-item-price/box-item-price.component';
 import { BoxTotalPriceComponent } from './pages/box-total-price/box-total-price.component';
 
-import { MarkCategoryComponent } from './pages/home/mark-category/mark-category.component';
 
 
 import { FullServicesComponent } from './pages/full-services/full-services.component';
@@ -35,18 +35,16 @@ import {CarrocelComponent} from './pages/carrocel/carrocel.component';
     MenuHorizontalComponent,
     MenuHamburguerComponent,
     MenubarComponent,
-    HomeComponent,
     DefaultButtonComponent,
-    BoxCategoryComponent,
     BoxItemPriceComponent,
     BoxTotalPriceComponent,
-    MarkCategoryComponent,
     FullServicesComponent,
     CarrocelComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,  
+    AppRoutingModule,
+    HomeModule,  
     FooterModule
   ],
   providers: [],

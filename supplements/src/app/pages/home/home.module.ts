@@ -3,20 +3,21 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
 
 import { BoxCategoryComponent } from './box-category/box-category.component';
+import { MarkCategoryComponent } from './mark-category/mark-category.component';
 
 
 
 @NgModule({
   declarations: [
     HomeComponent,
-    BoxCategoryComponent
+    BoxCategoryComponent,
+    MarkCategoryComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
-    HomeComponent,
-    BoxCategoryComponent
+    HomeComponent
   ]
 })
 export class HomeModule { }
