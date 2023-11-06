@@ -14,7 +14,7 @@ import { CreateaccountComponent } from './createaccount/createaccount.component'
     CheckoutComponent,
     AccountComponent,
     LoginComponent,
-    CreateaccountComponent
+    CreateaccountComponent,
   ],
   imports: [
     CommonModule,

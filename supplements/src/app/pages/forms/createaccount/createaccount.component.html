@@ -1,1 +1,19 @@
-<p>createaccount works!</p>
+<body>
+
+    <h2>Criar uma Conta</h2>
+    
+    <form id="create-account-form">
+      <label for="nome">Nome:</label><br>
+      <input type="text" id="nome" name="nome"><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="senha">Senha:</label><br>
+      <input type="password" id="senha" name="senha"><br><br>
+      <button class="create-account-button" type="submit" onclick="submitForm()">Criar conta</button><br><br>
+    </form>
+    
+    <button onclick="loginWithGoogle()">Logar com Google</button><br><br>
+    
+    <p>Já tem uma conta? <a href="#">Log in</a></p>
+        
+    </body>
