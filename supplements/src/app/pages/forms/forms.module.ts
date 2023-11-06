@@ -17,7 +17,8 @@ import { CreateaccountComponent } from './createaccount/createaccount.component'
     CreateaccountComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ]
+  ,exports: [FormsComponent]
 })
 export class FormsModule { }
