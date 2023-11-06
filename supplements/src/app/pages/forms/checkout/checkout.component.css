@@ -1,0 +1,42 @@
+.container {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.checkbox-label {
+    display: inline;
+    vertical-align: middle;
+}
+
+.form-group::after {
+    content: "";
+    display: table;
+    clear: both;
+}

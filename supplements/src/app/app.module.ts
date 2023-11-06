@@ -3,7 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HomeModule } from './pages/home/home.module'
 import { FooterModule } from './pages/footer/footer.module';
 import { MenubarModule } from './pages/menubar/menubar.module';
+
 import { NutritionalTableModule } from './pages/nutritional-table/nutritional-table.module';
+
+import { FormsModule } from './pages/forms/forms.module';
+
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -39,7 +43,8 @@ import {CarrocelComponent} from './pages/carrocel/carrocel.component';
     HomeModule,  
     MenubarModule,
     FooterModule,
-    NutritionalTableModule
+    NutritionalTableModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
