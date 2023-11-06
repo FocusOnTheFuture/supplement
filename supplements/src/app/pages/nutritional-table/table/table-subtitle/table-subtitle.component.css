@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 8px solid black;
+
+    padding-top: 8px;
+}
+
+p {
+    padding-bottom: 3px;
+}
