@@ -4,6 +4,7 @@ import { HomeComponent } from './home.component';
 
 import { BoxCategoryComponent } from './box-category/box-category.component';
 import { MarkCategoryComponent } from './mark-category/mark-category.component';
+import { DefaultButtonModule } from '../default-button/default-button.module';
 
 
 
@@ -15,7 +16,8 @@ import { MarkCategoryComponent } from './mark-category/mark-category.component';
     MarkCategoryComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    DefaultButtonModule
   ],
   exports: [
     HomeComponent

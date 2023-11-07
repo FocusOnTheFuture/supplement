@@ -5,6 +5,7 @@ import { FooterModule } from './pages/footer/footer.module';
 import { MenubarModule } from './pages/menubar/menubar.module';
 import { DefaultButtonModule } from './pages/default-button/default-button.module';
 
+
 import { NutritionalTableModule } from './pages/nutritional-table/nutritional-table.module';
 
 import { FormsModule } from './pages/forms/forms.module';
