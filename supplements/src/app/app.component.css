@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.menu-horizontal {
+    text-align: center;
+}
+
+.menu-right {
+    display: flex;
+    align-items: center;
+}
+
+app-menu-hamburguer,
+app-menusearch,
+app-menu-horizontal {
+    margin: 0 10px;
+}
