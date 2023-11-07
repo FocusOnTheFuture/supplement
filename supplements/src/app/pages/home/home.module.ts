@@ -7,11 +7,12 @@ import { MarkCategoryComponent } from './mark-category/mark-category.component';
 
 
 
+
 @NgModule({
   declarations: [
     HomeComponent,
     BoxCategoryComponent,
-    MarkCategoryComponent
+    MarkCategoryComponent,
   ],
   imports: [
     CommonModule
