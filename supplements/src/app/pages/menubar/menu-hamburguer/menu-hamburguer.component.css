@@ -29,8 +29,8 @@ li:before, .menu:before {
   font-size: 2em;
   cursor: pointer;
   position: absolute;
-  left: 5%;
-  top: 25%;
+  left: 94%;
+  top: 4%;
 }
 .menu:before {
   content: "💪";

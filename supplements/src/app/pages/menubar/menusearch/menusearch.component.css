@@ -46,10 +46,12 @@ body {
 	outline: transparent;
 }
 .search-bar {
-	margin: auto;
+	margin: absolute;
 	padding: 1.5em;
 	justify-content: center;
 	max-width: 30em;
+	top: 5%;
+    left: 100%;
 }
 .search-bar input {
 	background: transparent;
