@@ -24,6 +24,9 @@ import { BoxTotalPriceComponent } from './pages/box-total-price/box-total-price.
 import { FullServicesComponent } from './pages/full-services/full-services.component';
 
 import {CarrocelComponent} from './pages/carrocel/carrocel.component';
+import { MenuHamburguerComponent } from './pages/menubar/menu-hamburguer/menu-hamburguer.component';
+import { MenuHorizontalComponent } from './pages/menubar/menu-horizontal/menu-horizontal.component';
+import { MenusearchComponent } from './pages/menubar/menusearch/menusearch.component';
 
 
 
@@ -35,7 +38,7 @@ import {CarrocelComponent} from './pages/carrocel/carrocel.component';
     BoxItemPriceComponent,
     BoxTotalPriceComponent,
     FullServicesComponent,
-    CarrocelComponent
+    CarrocelComponent,
   ],
   imports: [
     BrowserModule,
