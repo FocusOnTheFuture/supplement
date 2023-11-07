@@ -10,6 +10,9 @@ import { BoxItemPriceComponent } from './box-item-price.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    BoxItemPriceComponent
   ]
 })
 export class BoxItemPriceModule { }

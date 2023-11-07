@@ -16,13 +16,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 
-import { BoxItemPriceComponent } from './pages/box-item-price/box-item-price.component';
-import { BoxTotalPriceComponent } from './pages/box-total-price/box-total-price.component';
-
-
 import { FullServicesComponent } from './pages/full-services/full-services.component';
 
-import {CarrocelComponent} from './pages/carrocel/carrocel.component';
+import { BoxTotalPriceModule } from './pages/box-total-price/box-total-price.module';
+
+
 
 
 
@@ -32,10 +30,7 @@ import {CarrocelComponent} from './pages/carrocel/carrocel.component';
 @NgModule({
   declarations: [
     AppComponent,
-    BoxItemPriceComponent,
-    BoxTotalPriceComponent,
     FullServicesComponent,
-    CarrocelComponent,
   ],
   imports: [
     BrowserModule,
@@ -45,7 +40,8 @@ import {CarrocelComponent} from './pages/carrocel/carrocel.component';
     FooterModule,
     NutritionalTableModule,
     FormsModule,
-    DefaultButtonModule
+    DefaultButtonModule,
+    BoxTotalPriceModule
   ],
   providers: [],
   bootstrap: [AppComponent]

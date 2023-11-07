@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BoxTotalPriceComponent } from './box-total-price.component';
+import { DefaultButtonModule } from '../default-button/default-button.module';
 
 
 
@@ -9,7 +10,11 @@ import { BoxTotalPriceComponent } from './box-total-price.component';
     BoxTotalPriceComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    DefaultButtonModule
+  ],
+  exports: [
+    BoxTotalPriceComponent
   ]
 })
 export class BoxTotalPriceModule { }

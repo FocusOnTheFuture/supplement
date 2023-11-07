@@ -12,5 +12,8 @@ import { BoxItemPriceComponent } from '../box-item-price/box-item-price.componen
   imports: [
     CommonModule
   ],
+  exports: [
+    CarrocelComponent
+  ]
 })
 export class CarrocelModule { }
