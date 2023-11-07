@@ -49,9 +49,11 @@ body {
 	margin: absolute;
 	padding: 1.5em;
 	justify-content: center;
-	max-width: 30em;
-	top: 5%;
-    left: 100%;
+	max-width: 20em;
+	position: absolute;
+	margin-left: 80.5%;
+	margin-top: 0.3%;
+	
 }
 .search-bar input {
 	background: transparent;
@@ -81,6 +83,7 @@ body {
 	position: relative;
 	transform: translate(0.25em,0.25em) rotate(45deg) scale(0.25,0.125);
 	transform-origin: 0 50%;
+	
 }
 .search-btn:before, 
 .search-btn:after {

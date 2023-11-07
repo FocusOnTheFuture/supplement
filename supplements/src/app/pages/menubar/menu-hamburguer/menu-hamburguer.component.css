@@ -2,7 +2,7 @@
 
 .menu:before, .menu {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -22,15 +22,15 @@ li:before, .menu:before {
 
 .menu {
   background: #474747;
-  height: 56px;
-  width: 56px;
+  height: 40px;
+  width: 40px;
   border-radius: 5px;
   color: #E6E6E6;
   font-size: 2em;
   cursor: pointer;
   position: absolute;
   left: 94%;
-  top: 4%;
+  top: 5%;
 }
 .menu:before {
   content: "💪";
