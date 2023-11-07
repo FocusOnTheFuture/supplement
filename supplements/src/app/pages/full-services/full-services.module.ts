@@ -10,6 +10,9 @@ import { FullServicesComponent } from './full-services.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    FullServicesComponent
   ]
 })
 export class FullServicesModule { }
