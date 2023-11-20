@@ -1,10 +1,11 @@
 @charset "UTF-8";
 
 .menu:before, .menu {
-  position: absolute;
-  top: 40%;
-  left: 50%;
   transform: translate(-50%, -50%);
+  /* top: 40%;
+  left: 50%;  */
+  /* position: absolute; */
+ 
 }
 
 li:before, .menu:before {

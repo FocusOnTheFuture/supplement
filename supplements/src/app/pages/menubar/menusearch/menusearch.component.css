@@ -44,16 +44,16 @@ body {
 .search-bar input:not(:focus) + .search-btn:focus {
 	outline: transparent;
 }
-.search-bar {
-	margin: absolute;
+ .search-bar {
+	 max-width: 20em;
+	 /* margin: absolute;
+	 position: absolute;
 	padding: 1.5em;
 	justify-content: center;
-	max-width: 20em;
-	position: absolute;
 	margin-left: 80.5%;
-	margin-top: 0.3%;
+	margin-top: 0.3%; */
 	
-}
+} 
 .search-bar input {
 	background: transparent;
 	border-radius: 1.5em;
