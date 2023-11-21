@@ -5,8 +5,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { PageAboutComponent } from './pages/page-about/page-about.component';
 import { PageSignupComponent } from './pages/page-signup/page-signup.component';
 import { PageLoginComponent } from './pages/page-login/page-login.component';
-import { CheckoutComponent } from './pages/forms/checkout/checkout.component';
 import { PageCheckoutComponent } from './pages/page-checkout/page-checkout.component';
+import { PageAccountComponent } from './pages/page-account/page-account.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent, pathMatch: 'full'},
@@ -14,7 +14,8 @@ const routes: Routes = [
   {path: 'about', component: PageAboutComponent},
   {path: 'signup', component: PageSignupComponent},
   {path: 'login', component: PageLoginComponent},
-  {path: 'payment', component: PageCheckoutComponent}
+  {path: 'payment', component: PageCheckoutComponent},
+  {path: 'account', component: PageAccountComponent}
 ];
 
 @NgModule({

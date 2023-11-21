@@ -25,6 +25,8 @@ import { PageLoginComponent } from './pages/page-login/page-login.component';
 import { LoginComponent } from './pages/forms/login/login.component';
 import { CheckoutComponent } from './pages/forms/checkout/checkout.component';
 import { PageCheckoutComponent } from './pages/page-checkout/page-checkout.component';
+import { PageAccountComponent } from './pages/page-account/page-account.component';
+import { AccountComponent } from './pages/forms/account/account.component';
 
 
 
@@ -45,7 +47,9 @@ import { PageCheckoutComponent } from './pages/page-checkout/page-checkout.compo
     PageLoginComponent,
     LoginComponent,
     CheckoutComponent,
-    PageCheckoutComponent
+    PageCheckoutComponent,
+    PageAccountComponent,
+    AccountComponent
   ],
   imports: [
     BrowserModule,
