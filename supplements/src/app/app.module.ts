@@ -16,6 +16,7 @@ import { AppComponent } from './app.component';
 
 
 import { BoxTotalPriceModule } from './pages/box-total-price/box-total-price.module';
+import { PageWishListComponent } from './pages/page-wish-list/page-wish-list.component';
 
 
 
@@ -26,7 +27,8 @@ import { BoxTotalPriceModule } from './pages/box-total-price/box-total-price.mod
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PageWishListComponent
   ],
   imports: [
     BrowserModule,
