@@ -7,8 +7,6 @@ import { DefaultButtonModule } from './pages/default-button/default-button.modul
 
 import { NutritionalTableModule } from './pages/nutritional-table/nutritional-table.module';
 
-import { FormsModule } from './pages/forms/forms.module';
-
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -21,6 +19,8 @@ import { FooterModule } from './pages/footer/footer.module';
 import { PageAboutComponent } from './pages/page-about/page-about.component';
 import { FullServicesModule } from './pages/full-services/full-services.module';
 import { BoxItemPriceModule } from './pages/box-item-price/box-item-price.module';
+import { PageSignupComponent } from './pages/page-signup/page-signup.component';
+import { CreateaccountComponent } from './pages/forms/createaccount/createaccount.component';
 
 
 
@@ -36,6 +36,8 @@ import { BoxItemPriceModule } from './pages/box-item-price/box-item-price.module
     AppComponent,
     PageWishListComponent,
     PageAboutComponent,
+    PageSignupComponent,
+    CreateaccountComponent
   ],
   imports: [
     BrowserModule,
@@ -43,12 +45,11 @@ import { BoxItemPriceModule } from './pages/box-item-price/box-item-price.module
     HomeModule,  
     MenubarModule,
     NutritionalTableModule,
-    FormsModule,
     DefaultButtonModule,
     BoxTotalPriceModule,
     FooterModule,
     FullServicesModule,
-    BoxItemPriceModule
+    BoxItemPriceModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
