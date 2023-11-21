@@ -17,6 +17,7 @@ import { AppComponent } from './app.component';
 
 import { BoxTotalPriceModule } from './pages/box-total-price/box-total-price.module';
 import { PageWishListComponent } from './pages/page-wish-list/page-wish-list.component';
+import { FooterModule } from './pages/footer/footer.module';
 
 
 
@@ -38,7 +39,8 @@ import { PageWishListComponent } from './pages/page-wish-list/page-wish-list.com
     NutritionalTableModule,
     FormsModule,
     DefaultButtonModule,
-    BoxTotalPriceModule
+    BoxTotalPriceModule,
+    FooterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
