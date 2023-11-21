@@ -18,6 +18,10 @@ import { AppComponent } from './app.component';
 import { BoxTotalPriceModule } from './pages/box-total-price/box-total-price.module';
 import { PageWishListComponent } from './pages/page-wish-list/page-wish-list.component';
 import { FooterModule } from './pages/footer/footer.module';
+import { PageAboutComponent } from './pages/page-about/page-about.component';
+import { FullServicesModule } from './pages/full-services/full-services.module';
+
+
 
 
 
@@ -29,7 +33,8 @@ import { FooterModule } from './pages/footer/footer.module';
 @NgModule({
   declarations: [
     AppComponent,
-    PageWishListComponent
+    PageWishListComponent,
+    PageAboutComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +45,8 @@ import { FooterModule } from './pages/footer/footer.module';
     FormsModule,
     DefaultButtonModule,
     BoxTotalPriceModule,
-    FooterModule
+    FooterModule,
+    FullServicesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
