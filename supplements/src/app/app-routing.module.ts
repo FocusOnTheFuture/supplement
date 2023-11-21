@@ -4,12 +4,14 @@ import { PageWishListComponent } from './pages/page-wish-list/page-wish-list.com
 import { HomeComponent } from './pages/home/home.component';
 import { PageAboutComponent } from './pages/page-about/page-about.component';
 import { PageSignupComponent } from './pages/page-signup/page-signup.component';
+import { PageLoginComponent } from './pages/page-login/page-login.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent, pathMatch: 'full'},
   {path: 'wishlist', component: PageWishListComponent},
   {path: 'about', component: PageAboutComponent},
-  {path: 'signup', component: PageSignupComponent}
+  {path: 'signup', component: PageSignupComponent},
+  {path: 'login', component: PageLoginComponent}
 ];
 
 @NgModule({

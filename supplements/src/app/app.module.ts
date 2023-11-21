@@ -21,6 +21,9 @@ import { FullServicesModule } from './pages/full-services/full-services.module';
 import { BoxItemPriceModule } from './pages/box-item-price/box-item-price.module';
 import { PageSignupComponent } from './pages/page-signup/page-signup.component';
 import { CreateaccountComponent } from './pages/forms/createaccount/createaccount.component';
+import { PageLoginComponent } from './pages/page-login/page-login.component';
+import { LoginComponent } from './pages/forms/login/login.component';
+import { CheckoutComponent } from './pages/forms/checkout/checkout.component';
 
 
 
@@ -37,7 +40,10 @@ import { CreateaccountComponent } from './pages/forms/createaccount/createaccoun
     PageWishListComponent,
     PageAboutComponent,
     PageSignupComponent,
-    CreateaccountComponent
+    CreateaccountComponent,
+    PageLoginComponent,
+    LoginComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
