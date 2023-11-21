@@ -11,7 +11,6 @@ import { CarrocelComponent } from '../carrocel/carrocel.component';
 
 import { BoxItemPriceComponent } from '../box-item-price/box-item-price.component';
 import { FullServicesModule } from '../full-services/full-services.module';
-import { FooterModule } from '../footer/footer.module';
 
 
 
@@ -28,8 +27,7 @@ import { FooterModule } from '../footer/footer.module';
     CommonModule,
     DefaultButtonModule,
     BoxTotalPriceModule,
-    FullServicesModule,
-    FooterModule
+    FullServicesModule
   ],
   exports: [
     HomeComponent

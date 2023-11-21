@@ -1,0 +1,10 @@
+div {
+    margin: 6rem;
+}
+
+.container .total-price {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 6rem;
+}
