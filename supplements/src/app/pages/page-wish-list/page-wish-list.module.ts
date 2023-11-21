@@ -3,7 +3,8 @@ import { CommonModule } from '@angular/common';
 
 
 
-import { BoxTotalPriceComponent } from '../box-total-price/box-total-price.component';
+
+
 
 
 
@@ -11,9 +12,7 @@ import { BoxTotalPriceComponent } from '../box-total-price/box-total-price.compo
 
 
 @NgModule({
-  declarations: [
-    BoxTotalPriceComponent
-  ],
+  declarations: [],
   imports: [
     CommonModule
   ]

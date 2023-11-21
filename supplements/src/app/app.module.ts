@@ -20,6 +20,7 @@ import { PageWishListComponent } from './pages/page-wish-list/page-wish-list.com
 import { FooterModule } from './pages/footer/footer.module';
 import { PageAboutComponent } from './pages/page-about/page-about.component';
 import { FullServicesModule } from './pages/full-services/full-services.module';
+import { BoxItemPriceModule } from './pages/box-item-price/box-item-price.module';
 
 
 
@@ -34,7 +35,7 @@ import { FullServicesModule } from './pages/full-services/full-services.module';
   declarations: [
     AppComponent,
     PageWishListComponent,
-    PageAboutComponent
+    PageAboutComponent,
   ],
   imports: [
     BrowserModule,
@@ -46,7 +47,8 @@ import { FullServicesModule } from './pages/full-services/full-services.module';
     DefaultButtonModule,
     BoxTotalPriceModule,
     FooterModule,
-    FullServicesModule
+    FullServicesModule,
+    BoxItemPriceModule
   ],
   providers: [],
   bootstrap: [AppComponent]

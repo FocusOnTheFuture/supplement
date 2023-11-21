@@ -9,8 +9,9 @@ import { BoxTotalPriceModule } from '../box-total-price/box-total-price.module';
 import { CarrocelComponent } from '../carrocel/carrocel.component';
 
 
-import { BoxItemPriceComponent } from '../box-item-price/box-item-price.component';
+
 import { FullServicesModule } from '../full-services/full-services.module';
+import { BoxItemPriceModule } from '../box-item-price/box-item-price.module';
 
 
 
@@ -21,13 +22,14 @@ import { FullServicesModule } from '../full-services/full-services.module';
     BoxCategoryComponent,
     MarkCategoryComponent,
     CarrocelComponent,
-    BoxItemPriceComponent
+
   ],
   imports: [
     CommonModule,
     DefaultButtonModule,
     BoxTotalPriceModule,
-    FullServicesModule
+    FullServicesModule,
+    BoxItemPriceModule
   ],
   exports: [
     HomeComponent

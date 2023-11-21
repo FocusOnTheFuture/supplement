@@ -2,6 +2,10 @@ div {
     margin: 6rem;
 }
 
+h2 {
+    margin-bottom: 4rem;
+}
+
 .container .total-price {
     display: flex;
     justify-content: center;
