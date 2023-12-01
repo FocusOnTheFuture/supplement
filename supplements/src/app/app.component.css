@@ -1,7 +1,13 @@
 /* deixar o footer no final da página sempre */
 main {
-    height: 100vh;
+    min-height: 100vh;
+
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
 
 
 ::ng-deep * {
