@@ -4,7 +4,7 @@ import { MenubarComponent } from './menubar.component';
 import { MenuHamburguerComponent } from './menu-hamburguer/menu-hamburguer.component';
 import { MenuHorizontalComponent } from './menu-horizontal/menu-horizontal.component';
 import { MenusearchComponent } from './menusearch/menusearch.component';
-import { RouterLink } from '@angular/router';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 
 @NgModule({
@@ -16,7 +16,8 @@ import { RouterLink } from '@angular/router';
   ],
   imports: [
     CommonModule,
-    RouterLink
+    RouterLink,
+    RouterLinkActive
   ],
   exports: [
     MenubarComponent

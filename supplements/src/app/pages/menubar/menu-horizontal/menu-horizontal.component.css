@@ -71,3 +71,10 @@ body {
   opacity: 1;
 }
 
+
+/* Link ativo com RouterLinkActive */
+
+nav .activated {
+  color: blue;
+  font-size: larger;
+}

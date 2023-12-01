@@ -1,8 +1,23 @@
 <body>
         <nav class="navMenu">
-          <a [routerLink]="['/']">Home</a>
-          <a [routerLink]="['/about']">Sobre</a>
-          <a [routerLink]="['#']">Contato</a>
+          <a 
+          [routerLink]="['']" 
+          [routerLinkActive]="['activated']" 
+          [routerLinkActiveOptions]="{exact: true}"
+          >Home</a>
+
+          <a 
+          [routerLink]="['about']" 
+          [routerLinkActive]="['activated']" 
+          [routerLinkActiveOptions]="{exact: true}"
+          >Sobre</a>
+
+          <a 
+          [routerLink]="['#']"
+          [routerLinkActive]="['activated']" 
+          [routerLinkActiveOptions]="{exact: true}"
+          >Contato</a>
+          
           <div class="dot"></div>
         </nav>
 </body>
