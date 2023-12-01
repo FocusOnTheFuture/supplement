@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HomeModule } from './pages/home/home.module'
 import { MenubarModule } from './pages/menubar/menubar.module';
 import { DefaultButtonModule } from './pages/default-button/default-button.module';
+import { RouterModule } from '@angular/router';
 
 
 import { NutritionalTableModule } from './pages/nutritional-table/nutritional-table.module';
@@ -37,6 +38,8 @@ import { AccountComponent } from './pages/forms/account/account.component';
 
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -52,8 +55,8 @@ import { AccountComponent } from './pages/forms/account/account.component';
     AccountComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
+    BrowserModule,
     HomeModule,  
     MenubarModule,
     NutritionalTableModule,
@@ -62,6 +65,7 @@ import { AccountComponent } from './pages/forms/account/account.component';
     FooterModule,
     FullServicesModule,
     BoxItemPriceModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
