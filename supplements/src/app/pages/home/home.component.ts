@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { DefaultButtonComponent } from '../default-button/default-button.component'
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-home',
@@ -10,6 +11,13 @@ import { DefaultButtonComponent } from '../default-button/default-button.compone
 export class HomeComponent {
   buttonLabel: string = 'Ver todos os produtos';
   buttonTest: string = 'Teste';
+
+  constructor(private router: Router) { }
+
+  navegarParaOutraPagina() {
+    // O parâmetro para navigate é a rota para a qual você deseja navegar
+    this.router.navigate(['/about']);
+  }
 }
 
 
