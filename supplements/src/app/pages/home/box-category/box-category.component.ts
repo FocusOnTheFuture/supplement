@@ -8,9 +8,10 @@ import { Router } from '@angular/router';
 })
 export class BoxCategoryComponent {
   @Input()
-  imgCover: string = ""
+  imgCover: string = "";
 
-  label: string = 'Termogênicos'
+  @Input()
+  label: string = '';
 
     
   constructor(private router: Router) { }

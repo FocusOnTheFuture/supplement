@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-box-item-price',
@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./box-item-price.component.css']
 })
 export class BoxItemPriceComponent {
+  @Input()
+  labelTitle:string = '';
+
+  @Input()
+  labelPrice:string = '';
 
 }

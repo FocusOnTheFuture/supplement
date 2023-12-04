@@ -15,6 +15,7 @@ export class HomeComponent {
   navegarParaOutraPagina() {
     this.router.navigate(['/login']);
   }
+
 }
 
 
