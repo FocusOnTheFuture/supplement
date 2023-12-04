@@ -6,7 +6,7 @@
     </h2>
     
     <div class="category">
-        <app-box-category></app-box-category>
+        <app-box-category imgCover="../../../../assets/Suplemento box category.png"></app-box-category>
         <app-box-category></app-box-category>
         <app-box-category></app-box-category>
         <app-box-category></app-box-category>
@@ -18,7 +18,7 @@
         <app-box-category></app-box-category>
         <app-box-category></app-box-category>
     </div>
-        <app-default-button class="button" [label]="allProducts" (click)="navegarParaOutraPagina()"></app-default-button>
+         <app-default-button class="button" label="Ver todos os produtos" (click)="navegarParaOutraPagina()"></app-default-button>
 
     <app-mark-category></app-mark-category>
     <h2>
@@ -57,7 +57,8 @@
         <app-box-item-price></app-box-item-price>
         <app-box-item-price></app-box-item-price>
     </div>
-        <app-default-button class="button" label="{{ allProducts }}" (click)="navegarParaOutraPagina()"></app-default-button>
+        <app-default-button class="button" label="Ver todos os produtos" 
+        navegarParaOutraPagina (click)="navegarParaOutraPagina()"></app-default-button>
 
     <app-full-services></app-full-services>
 </body>
