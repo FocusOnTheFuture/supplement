@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-kcal',
@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./kcal.component.css']
 })
 export class KcalComponent {
+  @Input()
+  labelTitle = '';
+  
+  @Input()
+  labelValue = '';
 
+  @Input()
+  labelVD = '';
 }
