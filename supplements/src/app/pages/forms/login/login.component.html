@@ -7,7 +7,7 @@
       <input type="email" id="email" name="email"><br><br>
       <label for="senha">Senha:</label><br>
       <input type="password" id="senha" name="senha"><br><br>
-      <button class="login-button" type="submit">Log in</button><br><br>
+      <app-default-button [label]="Login" (click)="navegarParaOutraPagina()"></app-default-button>
     </form>
     
     <a href="#">Esqueceu a senha?</a>
