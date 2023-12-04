@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-default-button',
@@ -8,3 +9,4 @@ import { Component, Input } from '@angular/core';
 export class DefaultButtonComponent {
   @Input() label: string = '';
 }
+

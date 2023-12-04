@@ -15,8 +15,7 @@ export class HomeComponent {
   constructor(private router: Router) { }
 
   navegarParaOutraPagina() {
-    // O parâmetro para navigate é a rota para a qual você deseja navegar
-    this.router.navigate(['/about']);
+    this.router.navigate(['/login']);
   }
 }
 
