@@ -9,8 +9,7 @@ import { Router } from '@angular/router';
 })
 
 export class HomeComponent {
-  buttonLabel: string = 'Ver todos os produtos';
-  buttonTest: string = 'Teste';
+  allProducts: string = 'Ver todos os produtos';
 
   constructor(private router: Router) { }
 
