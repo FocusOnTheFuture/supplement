@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-account',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AccountComponent {
 
+  constructor(private router: Router) { }
+
+  navegarParaOutraPagina() {
+    this.router.navigate(['/account']);
+  }
+  
 }

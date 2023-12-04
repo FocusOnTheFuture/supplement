@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-box-item-price',
@@ -12,4 +13,9 @@ export class BoxItemPriceComponent {
   @Input()
   labelPrice:string = '';
 
+  constructor(private router: Router) { }
+
+  navegarParaOutraPagina() {
+    this.router.navigate(['/wishlist']);
+  }
 }

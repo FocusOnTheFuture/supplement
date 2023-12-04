@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -7,6 +7,12 @@ import { Router } from '@angular/router';
   styleUrls: ['./box-total-price.component.css']
 })
 export class BoxTotalPriceComponent {
+  @Input()
+  labelSubtotal:string = '';
+
+  @Input()
+  labelTotal:string = '';
+
   Cart: string = 'Ir para carrinho';
 
   constructor(private router: Router) { }

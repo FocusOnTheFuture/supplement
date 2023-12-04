@@ -6,6 +6,7 @@ import { AccountComponent } from './account/account.component';
 import { QuickLinkComponent } from './quick-link/quick-link.component';
 import { DownloadAppComponent } from './download-app/download-app.component';
 import { LogoComponent } from './logo/logo.component';
+import { RouterLink } from '@angular/router';
 
 
 
@@ -19,7 +20,8 @@ import { LogoComponent } from './logo/logo.component';
     LogoComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterLink
   ],
   exports: [
     FooterComponent
