@@ -12,28 +12,3 @@ h2 {
 
     margin-top: 6rem;
 }
-
-
-.products {
-    display: grid;
-
-    /* grid-template-columns: repeat(auto-fit, minmax(min(100%/3, max(10px, 100%/5)), 1fr)); */
-    grid-template-columns: repeat(auto-fill, 99px);
-    grid-template-rows: auto;
-    gap: 4px;
-
-
-    justify-items: center;
-    justify-content: center;
-
-    margin: 50px;
-
-}
-
-.container2 {
-    
-    border: 3px solid black;
-    border-radius: 100% 100% 100% 100% / 100% 100% 100% 100%;
-    
-    background-color: gray;
-}

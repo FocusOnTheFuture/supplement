@@ -8,5 +8,5 @@ import { Component} from '@angular/core';
 
 
 export class PageWishListComponent {
-  imgCover:string = "../../../assets/Suplemento box category.png";
+  
 }

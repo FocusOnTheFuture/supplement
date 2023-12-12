@@ -29,6 +29,7 @@ import { PageCheckoutComponent } from './pages/page-checkout/page-checkout.compo
 import { PageAccountComponent } from './pages/page-account/page-account.component';
 import { AccountComponent } from './pages/forms/account/account.component';
 import { PageErrorComponent } from './pages/page-error/page-error.component';
+import { PageCartComponent } from './pages/page-cart/page-cart.component';
 
 
 
@@ -54,7 +55,8 @@ import { PageErrorComponent } from './pages/page-error/page-error.component';
     PageCheckoutComponent,
     PageAccountComponent,
     AccountComponent,
-    PageErrorComponent
+    PageErrorComponent,
+    PageCartComponent
   ],
   imports: [
     AppRoutingModule,

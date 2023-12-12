@@ -8,10 +8,12 @@ import { PageLoginComponent } from './pages/page-login/page-login.component';
 import { PageCheckoutComponent } from './pages/page-checkout/page-checkout.component';
 import { PageAccountComponent } from './pages/page-account/page-account.component';
 import { PageErrorComponent } from './pages/page-error/page-error.component';
+import { PageCartComponent } from './pages/page-cart/page-cart.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent, pathMatch: 'full'},
   {path: 'wishlist', component: PageWishListComponent},
+  {path: 'cart', component: PageCartComponent},
   {path: 'about', component: PageAboutComponent},
   {path: 'signup', component: PageSignupComponent},
   {path: 'login', component: PageLoginComponent},

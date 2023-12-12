@@ -32,7 +32,9 @@ import { BoxItemPriceModule } from '../box-item-price/box-item-price.module';
     BoxItemPriceModule
   ],
   exports: [
-    HomeComponent
+    HomeComponent,
+    MarkCategoryComponent,
+    CarrocelComponent
   ]
 })
 export class HomeModule { }

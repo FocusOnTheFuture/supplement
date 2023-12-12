@@ -13,11 +13,12 @@ export class BoxTotalPriceComponent {
   @Input()
   labelTotal:string = '';
 
-  Cart: string = 'Ir para carrinho';
+  @Input()
+  Cart: string = '';
 
   constructor(private router: Router) { }
 
   navegarParaOutraPagina() {
-    this.router.navigate(['/']);
+    this.router.navigate(['/payment']);
   }
 }
